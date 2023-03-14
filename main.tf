@@ -2,7 +2,7 @@ provider "google" {
       #path for GCP service account credentials
       #credentials = file("credentials.json")
       # GCP project ID
-      #project     = "sbx-107038-rm0228-bd-3ba40310"
+      project     = "sbx-107038-rm0228-bd-3ba40310"
       # Any region of your choice
       #region = var.region
       # Any zone of your choice      
