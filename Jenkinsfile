@@ -16,7 +16,7 @@ pipeline{
        stage('apply/destroy'){
            steps{
                script{
-                  sh "terraform ${ACTION} --auto-approve"
+                  sh "terraform apply--auto-approve"
                   //-var-file=env-${Infra_env}/main.tfvars"
                }
            }
