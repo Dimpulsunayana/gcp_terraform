@@ -9,32 +9,32 @@ variable "bucket_loc" {
 }
 
 
-# variable "zone" {
-#   description = "GCP project ID"
-#   default = "us-central1-c"
-# }
+variable "zone" {
+  description = "GCP project ID"
+  default = "us-central1-c"
+}
 
-# variable "vm_name" {
-#   description = "GCP project ID"
-#   default = "dimpultest35r875785"
-# }
+variable "vm_name" {
+  description = "GCP project ID"
+  default = "dimpultest35r875785"
+}
 
-# variable "mc_type" {
-#   description = "GCP project ID"
-#   #default = "f1-micro"
-# }
+variable "mc_type" {
+  description = "GCP project ID"
+  #default = "f1-micro"
+}
 
-# variable "image" {
-#   description = "GCP project ID"
-#   default = "debian-cloud/debian-9"
-# }
+variable "image" {
+  description = "GCP project ID"
+  default = "debian-cloud/debian-9"
+}
 
-# variable "network" {
-#   description = "GCP project ID"
-#   default = "acn-cio-project-vpc"
-# }
+variable "network" {
+  description = "GCP project ID"
+  default = "acn-cio-project-vpc"
+}
 
-# variable "subnetwork" {
-#   description = "GCP project ID"
-#   default = "us-central1-public-subnet"
-# }
+variable "subnetwork" {
+  description = "GCP project ID"
+  default = "us-central1-public-subnet"
+}
