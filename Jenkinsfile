@@ -8,13 +8,15 @@ pipeline{
        stage('init'){
            steps{
                script{
-                    sh "terraform init -backend-config=env-${Infra_env}/state.tfvars"
+                    sh "terraform init"
+                  //-backend-config=env-${Infra_env}/state.tfvars
            }
        }
        stage('apply/destroy'){
            steps{
                script{
-                  sh "terraform ${ACTION} --auto-approve -var-file=env-${Infra_env}/main.tfvars"
+                  sh "terraform ${ACTION} --auto-approve"
+                  //-var-file=env-${Infra_env}/main.tfvars"
                }
            }
        }
