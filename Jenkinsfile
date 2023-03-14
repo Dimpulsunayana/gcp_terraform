@@ -4,6 +4,9 @@ pipeline{
 //            choice(name: 'Infra_env', choices: ['dev', 'prod'], description: 'Pick the env')
 //             choice(name: 'Action', choices: ['apply', 'destroy'], description: 'Pick the action')
 //         }
+   options {
+      ansiColor('xterm')
+   }
    environment {
         CLOUDSDK_CORE_PROJECT='sbx-107038-rm0228-bd-3ba40310'
     }
