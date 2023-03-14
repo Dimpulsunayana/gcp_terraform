@@ -12,12 +12,12 @@ provider "google" {
 module "vm_instanceandbucket"{
   source ="./modules"
   #C:\Users\dimpul.sunayana.giri\Documents\Terraform\terraform_1.3.4_windows_386\modules
-#   vm_name = "dimpulmodule123"
-#   mc_type = "f1-micro"
-#   zone= "us-central1-a"
-#   image ="debian-cloud/debian-11"
-#   network="acn-cio-project-vpc"
-#   subnetwork= "us-central1-private-subnet"
+  vm_name = "dimpulmodule123"
+  mc_type = "f1-micro"
+  zone= "us-central1-a"
+  image ="debian-cloud/debian-11"
+  network="acn-cio-project-vpc"
+  subnetwork= "us-central1-private-subnet"
   bucket_name = "dimpulmodule123"
   bucket_loc = "us-east1"
   # vpc_network =  "terraform-vpc-network"
