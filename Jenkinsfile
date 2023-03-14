@@ -1,3 +1,3 @@
 @Library('GCP-terraform') _
-ci()
+terraform()
 
