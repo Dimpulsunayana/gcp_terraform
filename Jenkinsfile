@@ -12,6 +12,7 @@ pipeline{
                   //-backend-config=env-${Infra_env}/state.tfvars
            }
        }
+     }
        stage('apply/destroy'){
            steps{
                script{
