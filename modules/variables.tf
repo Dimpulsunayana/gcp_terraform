@@ -8,6 +8,12 @@
 #   type = string
 # }
 
+
+variable "zone" {
+  description = "GCP project ID"
+  default = "us-central1-c"
+}
+
 variable "vm_name" {
   description = "GCP project ID"
   default = "dimpultest35r875785"
